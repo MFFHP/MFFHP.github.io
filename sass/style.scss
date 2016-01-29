@@ -21,7 +21,7 @@ img{
 	vertical-align: bottom;
 }
 #top{
-	background-image: url(../images/top.jpg);
+	background-image: url(../images/top.JPG);
 	background-size: cover;
 }
 #subtitle{
@@ -105,7 +105,12 @@ img{
 }
 #con1{
 	display: block;
-	background-image: url(../images/con1.JPG);
+	background-image: url(../images/con1.jpg);
+	background-size: cover;
+}
+#con2{
+	display: block;
+	background-image: url(../images/con2.jpg);
 	background-size: cover;
 }
 .contitle{
