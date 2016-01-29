@@ -1,4 +1,5 @@
 @charset"UTF-8";
+@import "compass";
 $mainnavy: #252659;
 $hovernavy: #4547A5;
 $activenavy: #1A1B3F;
@@ -18,7 +19,7 @@ body{
 	background-size: cover;
 }
 #subtitle{
-	padding: 20px 0 0 0;
+	padding: 18px 0 0 0;
 	color: white;
 	font-weight: 600;
 	margin: 0px 40px 0px 40px;
@@ -28,7 +29,7 @@ body{
 	padding: 0;
 	color: white;
 	font-weight: 600;
-	font-size: 60px;
+	font-size: 50px;
 	margin: 0px 40px 40px 40px;
 	text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
 }
@@ -56,10 +57,15 @@ body{
 .menupic{
 	height: 45px;
 	float: left;
-	margin-right: 20px;
 }
 .menus{
 	color: white;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 20px;
+	padding-top: 11px;
+	text-align: left;
+    margin-left: 90px;
+}
+.menuicon{
+	width: 40px;
 }
