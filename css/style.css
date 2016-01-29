@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* line 12, ../sass/style.scss */
+body {
+  width: 100%;
+  font-family: "ヒラギノ角ゴシック", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif; }
+
+/* line 16, ../sass/style.scss */
+#top {
+  background-image: url(../images/top.jpg);
+  background-size: cover; }
+
+/* line 20, ../sass/style.scss */
+#subtitle {
+  padding: 20px 0 0 0;
+  color: white;
+  font-weight: 600;
+  margin: 0px 40px 0px 40px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); }
+
+/* line 27, ../sass/style.scss */
+#title {
+  padding: 0;
+  color: white;
+  font-weight: 600;
+  font-size: 60px;
+  margin: 0px 40px 40px 40px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); }
+
+/* line 35, ../sass/style.scss */
+#titext {
+  font-size: xx-small;
+  margin: 0px 40px 0px 40px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: 600;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); }
+
+/* line 43, ../sass/style.scss */
+.menu {
+  padding: 0px;
+  width: 100%; }
+  /* line 46, ../sass/style.scss */
+  .menu a {
+    padding: 0; }
+
+/* line 50, ../sass/style.scss */
+.menut1 {
+  width: 100%;
+  height: 45px;
+  background-color: #F2B230; }
+
+/* line 56, ../sass/style.scss */
+.menupic {
+  height: 45px;
+  float: left;
+  margin-right: 20px; }
+
+/* line 61, ../sass/style.scss */
+.menus {
+  color: white;
+  font-weight: 600;
+  font-size: 16px; }

@@ -1,0 +1,65 @@
+@charset"UTF-8";
+$mainnavy: #252659;
+$hovernavy: #4547A5;
+$activenavy: #1A1B3F;
+$mainorange: #F2B230;
+$hoverorange: #FFC44C;
+$activeorange: #D89F2B;
+$backgroundblack: #303030;
+$backgroundwhite: #fff;
+$bonline: #E6E6E6;
+
+body{
+	width: 100%;
+	font-family: "ヒラギノ角ゴシック", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+#top{
+	background-image: url(../images/top.jpg);
+	background-size: cover;
+}
+#subtitle{
+	padding: 20px 0 0 0;
+	color: white;
+	font-weight: 600;
+	margin: 0px 40px 0px 40px;
+	text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+#title{
+	padding: 0;
+	color: white;
+	font-weight: 600;
+	font-size: 60px;
+	margin: 0px 40px 40px 40px;
+	text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+#titext{
+	font-size: xx-small;
+	margin: 0px 40px 0px 40px;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: 600;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+.menu{
+	padding: 0px;
+	width: 100%;
+	a{
+		padding: 0;
+	}
+}
+.menut1{
+	width: 100%;
+	height: 45px;
+	background-color: $mainorange;
+
+}
+.menupic{
+	height: 45px;
+	float: left;
+	margin-right: 20px;
+}
+.menus{
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+}
