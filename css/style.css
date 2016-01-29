@@ -1,15 +1,18 @@
 @charset "UTF-8";
-/* line 13, ../sass/style.scss */
+@font-face {
+  font-family: mfont;
+  src: url(mfffont.ttf); }
+/* line 16, ../sass/style.scss */
 body {
   width: 100%;
   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴシック", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
 
-/* line 17, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 #top {
   background-image: url(../images/top.JPG);
   background-size: cover; }
 
-/* line 21, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 #subtitle {
   font-size: 30px;
   padding: 18px 0 0 0;
@@ -18,7 +21,7 @@ body {
   margin: 0px 40px 0px 27px;
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); }
 
-/* line 29, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 #title {
   padding: 0;
   color: white;
@@ -27,7 +30,7 @@ body {
   margin: 0px 0px 40px 27px;
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); }
 
-/* line 37, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 #titext {
   font-size: 8px;
   margin: 0px 30px 0px 30px;
@@ -36,38 +39,50 @@ body {
   font-weight: 600;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); }
 
-/* line 45, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .menu {
   padding: 0px;
-  width: 100%;
-  border-top: solid #E6E6E6 1px;
-  border-bottom: solid #E6E6E6 1px; }
-  /* line 50, ../sass/style.scss */
+  width: 100%; }
+  /* line 51, ../sass/style.scss */
   .menu a {
     padding: 0; }
 
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .menut1 {
   width: 100%;
   height: 45px;
-  background-color: #F2B230; }
-
-/* line 59, ../sass/style.scss */
-.menupic {
-  height: 45px;
-  float: left; }
+  background-color: #F2B230;
+  border-top: solid #E6E6E6 1px;
+  border-bottom: solid #E6E6E6 1px;
+  z-index: 2; }
 
 /* line 63, ../sass/style.scss */
+.menut2 {
+  width: 100%;
+  height: 45px;
+  background-color: #252659;
+  border-top: solid #E6E6E6 1px;
+  border-bottom: solid #E6E6E6 1px; }
+
+/* line 70, ../sass/style.scss */
+.menupic {
+  height: 45px;
+  float: left;
+  border-top: solid #E6E6E6 1px;
+  border-bottom: solid #E6E6E6 1px; }
+
+/* line 76, ../sass/style.scss */
 .menus {
   color: white;
   font-weight: 600;
-  font-size: 20px;
-  padding-top: 11px;
+  font-size: 18px;
+  padding-top: 12px;
   text-align: left;
-  margin-left: 90px; }
+  margin-left: 20px;
+  float: left; }
 
-/* line 71, ../sass/style.scss */
-.menuicon {
-  transform: scale(2) translateY(-1px);
-  position: relative !important;
-  left: 10px; }
+/* line 85, ../sass/style.scss */
+#navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #252659; }

@@ -9,7 +9,10 @@ $activeorange: #D89F2B;
 $backgroundblack: #303030;
 $backgroundwhite: #fff;
 $bonline: #E6E6E6;
-
+@font-face{
+	font-family: mfont;
+	src: url(mfffont.ttf);
+}
 body{
 	width: 100%;
 	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴシック", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
@@ -45,8 +48,6 @@ body{
 .menu{
 	padding: 0px;
 	width: 100%;
-	border-top: solid $bonline 1px;
-	border-bottom: solid $bonline 1px;
 	a{
 		padding: 0;
 	}
@@ -55,21 +56,34 @@ body{
 	width: 100%;
 	height: 45px;
 	background-color: $mainorange;
+	border-top: solid $bonline 1px;
+	border-bottom: solid $bonline 1px;
+	z-index: 2;
+}
+.menut2{
+	width: 100%;
+	height: 45px;
+	background-color: $mainnavy;
+	border-top: solid $bonline 1px;
+	border-bottom: solid $bonline 1px;
 }
 .menupic{
 	height: 45px;
 	float: left;
+	border-top: solid $bonline 1px;
+	border-bottom: solid $bonline 1px;
 }
 .menus{
 	color: white;
 	font-weight: 600;
-	font-size: 20px;
-	padding-top: 11px;
+	font-size: 18px;
+	padding-top: 12px;
 	text-align: left;
-    margin-left: 90px;
+    margin-left: 20px;
+    float: left;
 }
-.menuicon{
-	transform: scale(2) translateY(-1px);
-	position: relative !important;
-	left: 10px;
+#navbar{
+	width: 100%;
+	height: 50px;
+	background-color: $mainnavy;
 }
