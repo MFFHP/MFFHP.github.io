@@ -161,3 +161,29 @@ img {
   padding-bottom: 30px;
   margin-bottom: 0px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); }
+
+/* line 153, ../sass/style.scss */
+#footer {
+  background-color: #F2B230; }
+
+/* line 156, ../sass/style.scss */
+#tel {
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px; }
+  /* line 162, ../sass/style.scss */
+  #tel a {
+    color: #252659; }
+
+/* line 166, ../sass/style.scss */
+#send {
+  display: block;
+  margin: 5px auto 9px auto;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  background-color: #252659;
+  width: 80px;
+  height: 30px; }
