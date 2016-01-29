@@ -2,7 +2,7 @@
 /* line 13, ../sass/style.scss */
 body {
   width: 100%;
-  font-family: "ヒラギノ角ゴシック", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif; }
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴシック", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
 
 /* line 17, ../sass/style.scss */
 #top {
@@ -52,12 +52,12 @@ body {
   height: 45px;
   background-color: #F2B230; }
 
-/* line 60, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .menupic {
   height: 45px;
   float: left; }
 
-/* line 64, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .menus {
   color: white;
   font-weight: 600;
@@ -66,6 +66,8 @@ body {
   text-align: left;
   margin-left: 90px; }
 
-/* line 72, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 .menuicon {
-  width: 40px; }
+  transform: scale(2) translateY(-1px);
+  position: relative !important;
+  left: 10px; }
