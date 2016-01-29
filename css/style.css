@@ -8,11 +8,15 @@ body {
   font-family: "游ゴシック", "游ゴシック体", YuGothic, "ヒラギノ角ゴシック", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !important; }
 
 /* line 20, ../sass/style.scss */
+img {
+  vertical-align: bottom; }
+
+/* line 23, ../sass/style.scss */
 #top {
   background-image: url(../images/top.JPG);
   background-size: cover; }
 
-/* line 24, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 #subtitle {
   font-size: 30px;
   padding: 18px 0 0 0;
@@ -21,7 +25,7 @@ body {
   margin: 0px 40px 0px 27px;
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); }
 
-/* line 32, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 #title {
   padding: 0;
   color: white;
@@ -30,7 +34,7 @@ body {
   margin: 0px 0px 40px 27px;
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); }
 
-/* line 40, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 #titext {
   font-size: 8px;
   margin: 0px 30px 0px 30px;
@@ -39,15 +43,15 @@ body {
   font-weight: 600;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); }
 
-/* line 48, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .menu {
   padding: 0px;
   width: 100%; }
-  /* line 51, ../sass/style.scss */
+  /* line 54, ../sass/style.scss */
   .menu a {
     padding: 0; }
 
-/* line 55, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .menut1 {
   width: 100%;
   height: 45px;
@@ -56,7 +60,7 @@ body {
   border-bottom: solid #E6E6E6 1px;
   z-index: 2; }
 
-/* line 63, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .menut2 {
   width: 100%;
   height: 45px;
@@ -64,14 +68,12 @@ body {
   border-top: solid #E6E6E6 1px;
   border-bottom: solid #E6E6E6 1px; }
 
-/* line 70, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .menupic {
   height: 45px;
-  float: left;
-  border-top: solid #E6E6E6 1px;
-  border-bottom: solid #E6E6E6 1px; }
+  float: left; }
 
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .menus {
   color: white;
   font-weight: 600;
@@ -81,21 +83,50 @@ body {
   margin-left: 20px;
   float: left; }
 
-/* line 85, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 #navbar {
   width: 100%;
   height: 50px;
   background-color: #252659; }
 
-/* line 90, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 #syokai {
   width: 100%;
-  height: 100px;
+  height: 85px;
   background-color: #252659; }
 
-/* line 95, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 #syot {
   font-weight: 600;
   color: white;
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-size: 21px; }
+
+/* line 103, ../sass/style.scss */
+.shpic {
+  width: 33.3%; }
+
+/* line 106, ../sass/style.scss */
+#con1 {
+  display: block;
+  background-image: url(../images/con1.jpg);
+  background-size: cover; }
+
+/* line 111, ../sass/style.scss */
+.contitle {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 10px;
+  color: white;
+  font-size: 24px; }
+
+/* line 118, ../sass/style.scss */
+.context {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 10px;
+  color: white;
+  padding-bottom: 30px;
+  margin-bottom: 0px; }

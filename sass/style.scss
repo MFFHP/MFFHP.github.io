@@ -17,6 +17,9 @@ body{
 	width: 100%;
 	font-family: "游ゴシック", "游ゴシック体", YuGothic, "ヒラギノ角ゴシック", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !important;
 }
+img{
+	vertical-align: bottom;
+}
 #top{
 	background-image: url(../images/top.JPG);
 	background-size: cover;
@@ -70,8 +73,6 @@ body{
 .menupic{
 	height: 45px;
 	float: left;
-	border-top: solid $bonline 1px;
-	border-bottom: solid $bonline 1px;
 }
 .menus{
 	color: white;
@@ -89,7 +90,7 @@ body{
 }
 #syokai{
 	width: 100%;
-	height: 100px;
+	height: 85px;
 	background-color: $mainnavy;
 }
 #syot{
@@ -97,4 +98,29 @@ body{
 	color: white;
 	text-align: center;
 	padding-top: 20px;
+	font-size: 21px;
+}
+.shpic{
+	width: 33.3%
+}
+#con1{
+	display: block;
+	background-image: url(../images/con1.jpg);
+	background-size: cover;
+}
+.contitle{
+	text-align: center;
+	font-weight: 600;
+	padding-top: 10px;
+	color: white;
+	font-size: 24px;
+}
+.context{
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 10px;
+	color: white;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
 }
