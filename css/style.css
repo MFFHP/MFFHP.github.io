@@ -187,3 +187,18 @@ img {
   background-color: #252659;
   width: 80px;
   height: 30px; }
+
+/* line 176, ../sass/style.scss */
+.navi {
+  color: white;
+  transform: scale(4); }
+
+/* line 180, ../sass/style.scss */
+#navicon {
+  padding-top: 10px;
+  text-align: right; }
+
+/* line 184, ../sass/style.scss */
+#info {
+  margin-right: 20px;
+  margin-left: 25px; }
